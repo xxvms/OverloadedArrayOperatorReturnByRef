@@ -13,7 +13,7 @@ const int LIMIT = 100; // array size, letters in UPPER case are constatnt - they
 
 class SafeArray
 {
-	int arr[LIMIT];
+	int arr[LIMIT]{ 0 };
 public:
 	int& operator [](int n) // note: return by reference!!! overloading []
 	{
